@@ -8,6 +8,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "aws s3 sync --delete build/ s3://test-grocer-discord-bot-docs",
+    "release": "rm -rf build/ yarn build && yarn deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
