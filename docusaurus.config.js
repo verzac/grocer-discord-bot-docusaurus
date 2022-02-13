@@ -44,7 +44,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: false,
+        disableSwitch: true,
       },
       navbar: {
         title: "GroceryBot",
@@ -59,7 +59,7 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/verzac/grocer-discord-bot",
             label: "GitHub",
@@ -76,6 +76,10 @@ const config = {
               {
                 label: "Tutorial",
                 to: "/docs/intro",
+              },
+              {
+                label: "Privacy Policy",
+                to: "/docs/privacy-policy",
               },
             ],
           },
@@ -95,10 +99,10 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "GitHub",
                 href: "https://github.com/verzac/grocer-discord-bot",
