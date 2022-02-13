@@ -161,5 +161,5 @@ Congratulations, you're now a certified GroceryBot professional! 🎉
 
 We have more advanced documentation for GroceryBot which you can view below:
 
-- [Privacy policy (and how to remove your data)](./privacy-policy.md)
+- [Privacy policy (and how to remove your data)](/privacy-policy)
 - [Using multiple grocery lists](./multilist.md)

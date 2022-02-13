@@ -35,6 +35,10 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        gtag: {
+          trackingID: "G-LEYDSTJJ7L",
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -79,7 +83,7 @@ const config = {
               },
               {
                 label: "Privacy Policy",
-                to: "/docs/privacy-policy",
+                to: "/privacy-policy",
               },
             ],
           },
