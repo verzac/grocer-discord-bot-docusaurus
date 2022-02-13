@@ -14,7 +14,7 @@ Get a grocery list going for your Discord server! No more switching apps just to
 
 If you want to use the old format (which will be supported indefinitely), please mention `@GroceryBot` in your commands; otherwise, GroceryBot won't receive your commands! For example:
 
-<img style={{ maxWidth: 520 }} src={require('./assets/mention.jpg').default} alt="grocery bot mention example" />
+<img style={{ width: 520 }} src={require('./assets/mention.jpg').default} alt="grocery bot mention example" />
 :::
 
 ## Getting started
@@ -29,7 +29,7 @@ _Note: GroceryBot requires the "Send Message" permission to function (i.e. commu
 
 <!-- ![add grocery bot](./assets/add-to-server.jpg) -->
 
-<img style={{ maxWidth: 400 }} src={require('./assets/add-to-server.jpg').default} alt="add grocery bot" />
+<img style={{ width: 400 }} src={require('./assets/add-to-server.jpg').default} alt="add grocery bot" />
 
 ## !gro - Adding your first grocery entry 📝
 
