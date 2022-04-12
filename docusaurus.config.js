@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: "Invite GroceryBot to Your Server",
-                href: "https://discord.com/oauth2/authorize?client_id=815120759680532510&permissions=2048&scope=bot",
+                href: "https://discord.com/oauth2/authorize?client_id=815120759680532510&permissions=2048&scope=bot%20applications.commands",
               },
               {
                 label: "Discord Support Server",

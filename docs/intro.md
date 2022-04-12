@@ -21,7 +21,7 @@ If you want to use the old format (which will be supported indefinitely), please
 
 To get started with GroceryBot, all you have to do is add the bot to your server through the link below:
 
-**[Invite GroceryBot](https://discord.com/oauth2/authorize?client_id=815120759680532510&permissions=2048&scope=bot)**
+**[Invite GroceryBot](https://discord.com/oauth2/authorize?client_id=815120759680532510&permissions=2048&scope=bot%20applications.commands)**
 
 ...and, that's it!
 
