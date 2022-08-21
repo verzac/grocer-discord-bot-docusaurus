@@ -44,3 +44,5 @@ Don't worry, we're probably on the same boat. If you miss the old experience, yo
 Re-invite the bot through the link on this site (at the bottom, in the footer).
 
 Due to a botched invite link ([Github issue here](https://github.com/verzac/grocer-discord-bot/issues/14#issuecomment-1095888210)), some of our users who used that botched invite link were unable to use slash commands. This should have been fixed - if it doesn't work please hop on to our support server!
+
+**Your data is safe: your data will persist even if you kick the bot out of your server** (_until_ you run `/groreset`). This is an intentional design decision to make re-invites easy.
