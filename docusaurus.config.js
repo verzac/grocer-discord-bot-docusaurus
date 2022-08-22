@@ -41,6 +41,18 @@ const config = {
         },
       }),
     ],
+    [
+      "redocusaurus",
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            spec: "openapi.yaml",
+            route: "/api/",
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig:
@@ -64,6 +76,7 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/api", label: "API", position: "left" },
           {
             href: "https://github.com/verzac/grocer-discord-bot",
             label: "GitHub",
